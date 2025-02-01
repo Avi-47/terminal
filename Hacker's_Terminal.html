@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking Simulation</title>
+    <style>
+        body {
+            font-family: monospace;
+            background-color: black;
+            color: limegreen;
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20%;
+        }
+        .message {
+            transition: transform 0.7s ease-in-out, opacity 0.7s ease-out;
+        }
+        .progress_container {
+            width: 50%;
+            height: 30px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 10px auto;
+            border-radius: 5px;
+            display:contents;
+            overflow: hidden;
+        }
+        .progress_bar {
+            height: 100%;
+            width: 0%;
+            background-color: limegreen;
+            transition: width 0.1s;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container"></div>
+    <div class="progress_container" id="progress_container">
+        <div class="progress_bar" id="progress_bar"></div>
+    </div>
+
+    <script src="Hacker's_Terminal.js"></script>
+        
+</body>
+</html>
